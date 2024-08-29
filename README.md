@@ -6,4 +6,4 @@ Este projeto visa o desenvolvimento  de uma Landing page com o intuito de adquir
 
 3 Construir interfaces de usuário responsivas.
 
-4 Implementar implementar recolhimento de leads.
+4 implementar recolhimento de leads.
