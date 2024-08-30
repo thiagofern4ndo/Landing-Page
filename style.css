@@ -1,8 +1,12 @@
 * {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'inter';
 }
-
+body {
+    height: 100vh;
+    box-sizing: border-box;
+}
 #logo {
     margin-left: 56px;
     margin-top: 52px;
@@ -24,12 +28,18 @@
     color: white;
 }
 
-#meuinformacional {
+#menuinformacional {
     background-color: #EAECE5;
     display: grid;
     grid-auto-flow: column;
-    columns: auto;
+    justify-content: space-between; /* Distribui os itens uniformemente */
+    align-items: center; /* Centraliza verticalmente */
+    padding-top: 0; /* Padding superior */
+    padding-right: 180px; /* Aumenta o padding direito para 100px */
+    padding-bottom: 0; /* Padding inferior */
+    padding-left: 50px; /* Padding esquerdo original */
 }
+
 
 .icon {
     margin: 50px 0px 50px 100px;
@@ -59,14 +69,16 @@
 
 #carrossel {
     background-color: #247BA0;
-    padding: 50px;
+    padding: 50px 200px;
+    justify-content: space-between; /* Distribui os itens uniformemente */
+    align-items: center; /* Centraliza verticalmente */
 }
 
 #titulo-carrossel {
     text-align: center;
     color: #EAECE5;
     font-size: 25px;
-    margin-top: 5px;
+
 }
 
 #div-cards {
@@ -120,6 +132,7 @@ input {
 
 button{
     margin-top: 20px;
+    margin-bottom: 30px; /* Adiciona espaço abaixo do botão */
     background-color: #247BA0;
     height: 35px;
     width: 250px;
